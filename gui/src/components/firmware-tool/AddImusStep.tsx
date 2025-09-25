@@ -95,7 +95,9 @@ function IMUCard({
                           href="https://docs.slimevr.dev/firmware/configuring-project.html#adjust-imu-board-rotation"
                           className="hover:underline"
                         >
-                          IMU Rotation (Degree)
+                          {l10n.getString(
+                            'firmware_tool-add_imus_step-imu_rotation-tooltip-label'
+                          )}
                         </A>
                         <div className="group-hover:opacity-100 group-hover:underline opacity-65 ml-1 scale-[0.65] border-2 border-solid text-xs w-5 h-5 flex justify-center items-center rounded-full">
                           <A href="https://docs.slimevr.dev/firmware/configuring-project.html#adjust-imu-board-rotation">
@@ -106,7 +108,9 @@ function IMUCard({
                     </Tooltip>
                   </div>
                 }
-                placeholder="Rotation Degree"
+                placeholder={l10n.getString(
+                  'firmware_tool-add_imus_step-imu_rotation-tooltip-placeholder'
+                )}
                 autocomplete="off"
               ></Input>
             </Localized>
