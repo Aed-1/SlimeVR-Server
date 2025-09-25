@@ -1367,6 +1367,7 @@ firmware_tool-add_imus_step-description =
 firmware_tool-add_imus_step-imu_type-label = IMU type
 firmware_tool-add_imus_step-imu_type-placeholder = Select the type of IMU
 firmware_tool-add_imus_step-imu_rotation =
+firmware_tool-add_imus_step-imu_rotation-tooltip = Click to open documentation
     .label = IMU Rotation (deg)
     .placeholder = Rotation angle of the IMU
 firmware_tool-add_imus_step-scl_pin =
