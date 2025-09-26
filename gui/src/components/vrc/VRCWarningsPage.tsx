@@ -304,7 +304,7 @@ export function VRCWarningsPage() {
             a: (
               <A
                 href="https://docs.slimevr.dev/tools/vrchat-config.html"
-                underline={true}
+                underline
               ></A>
             ),
           }}

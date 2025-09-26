@@ -252,7 +252,7 @@ export function ConnectTrackersPage() {
                   PublicFixLink: (
                     <A
                       href="https://docs.slimevr.dev/common-issues.html#network-profile-is-currently-set-to-public"
-                      underline={true}
+                      underline
                     ></A>
                   ),
                 }}
